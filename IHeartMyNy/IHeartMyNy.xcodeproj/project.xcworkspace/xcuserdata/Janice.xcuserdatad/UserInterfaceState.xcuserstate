@@ -1273,7 +1273,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/IHeartMyNy.xcodeproj/</string>
-		<real>342821097.88001901</real>
+		<real>342821121.57813197</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2286,7 +2286,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{40, -2}, {1233, 778}}</string>
+		<string>{{49, -2}, {1233, 778}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2659,7 +2659,7 @@
 				<integer>255</integer>
 			</dict>
 		</dict>
-		<real>342821097.87902999</real>
+		<real>342821121.57670403</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3679,7 +3679,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>353</integer>
+					<integer>354</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3710,6 +3710,24 @@
 			<dict>
 				<key>CF$UID</key>
 				<integer>351</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/IHeartMyNy.xcodeproj/project.xcworkspace/xcuserdata/Janice.xcuserdatad/UserInterfaceState.xcuserstate</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>133</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>353</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/www/css/style.css</string>
@@ -3744,28 +3762,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>354</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/www/index.html</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>133</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
 				<integer>356</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/IHeartMyNy.xcodeproj/project.xcworkspace/xcuserdata/Janice.xcuserdatad/UserInterfaceState.xcuserstate</string>
+		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/www/index.html</string>
 		<dict>
 			<key>$class</key>
 			<dict>
