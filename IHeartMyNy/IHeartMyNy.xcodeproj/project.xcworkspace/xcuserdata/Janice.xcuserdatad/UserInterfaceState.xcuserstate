@@ -1273,7 +1273,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Janice/Desktop/xcode/nycbigapps2011/IHeartMyNy/IHeartMyNy.xcodeproj/</string>
-		<real>342820416.85939002</real>
+		<real>342820437.30795097</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2132,7 +2132,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{28, 0}, {1233, 778}}</string>
+		<string>{{33, 0}, {1233, 778}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2505,7 +2505,7 @@
 				<integer>239</integer>
 			</dict>
 		</dict>
-		<real>342820416.85877502</real>
+		<real>342820437.307459</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3005,7 +3005,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>342820416.85896099</real>
+		<real>342820426.886603</real>
 		<string>{39, 831}</string>
 		<dict>
 			<key>$class</key>
