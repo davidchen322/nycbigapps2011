@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11982118148C788600BAB02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982117148C788600BAB02F /* Foundation.framework */; };
+		1198211A148C788600BAB02F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982119148C788600BAB02F /* UIKit.framework */; };
+		1198211C148C788600BAB02F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198211B148C788600BAB02F /* CoreGraphics.framework */; };
+		1198211E148C788600BAB02F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198211D148C788600BAB02F /* AddressBook.framework */; };
+		11982120148C788600BAB02F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198211F148C788600BAB02F /* AddressBookUI.framework */; };
+		11982122148C788600BAB02F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982121148C788600BAB02F /* AudioToolbox.framework */; };
+		11982124148C788600BAB02F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982123148C788600BAB02F /* AVFoundation.framework */; };
+		11982126148C788600BAB02F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982125148C788600BAB02F /* CoreLocation.framework */; };
+		11982128148C788600BAB02F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982127148C788600BAB02F /* MediaPlayer.framework */; };
+		1198212A148C788600BAB02F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11982129148C788600BAB02F /* QuartzCore.framework */; };
+		1198212C148C788600BAB02F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198212B148C788600BAB02F /* SystemConfiguration.framework */; };
+		1198212E148C788600BAB02F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198212D148C788600BAB02F /* MobileCoreServices.framework */; };
+		11982130148C788600BAB02F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198212F148C788600BAB02F /* CoreMedia.framework */; };
+		11982136148C788600BAB02F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11982134148C788600BAB02F /* InfoPlist.strings */; };
+		11982139148C788600BAB02F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11982138148C788600BAB02F /* main.m */; };
+		1198213B148C788600BAB02F /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198213A148C788600BAB02F /* PhoneGap.framework */; };
+		1198213D148C788600BAB02F /* DatepickerTest-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 1198213C148C788600BAB02F /* DatepickerTest-Prefix.pch */; };
+		11982143148C788700BAB02F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11982141148C788700BAB02F /* Localizable.strings */; };
+		11982147148C788700BAB02F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11982145148C788700BAB02F /* Localizable.strings */; };
+		1198214A148C788700BAB02F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11982149148C788700BAB02F /* icon.png */; };
+		1198214C148C788700BAB02F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1198214B148C788700BAB02F /* icon@2x.png */; };
+		1198214E148C788700BAB02F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1198214D148C788700BAB02F /* icon-72.png */; };
+		11982151148C788700BAB02F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11982150148C788700BAB02F /* Default.png */; };
+		11982153148C788700BAB02F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11982152148C788700BAB02F /* Default@2x.png */; };
+		11982155148C788700BAB02F /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11982154148C788700BAB02F /* Capture.bundle */; };
+		11982157148C788700BAB02F /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11982156148C788700BAB02F /* PhoneGap.plist */; };
+		1198215B148C788700BAB02F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198215A148C788700BAB02F /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11982113148C788600BAB02F /* DatepickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatepickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11982117148C788600BAB02F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11982119148C788600BAB02F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1198211B148C788600BAB02F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1198211D148C788600BAB02F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1198211F148C788600BAB02F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		11982121148C788600BAB02F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		11982123148C788600BAB02F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		11982125148C788600BAB02F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11982127148C788600BAB02F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		11982129148C788600BAB02F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1198212B148C788600BAB02F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1198212D148C788600BAB02F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1198212F148C788600BAB02F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		11982133148C788600BAB02F /* DatepickerTest-Info.plist */ = {isa = PBXFileReference; path = "DatepickerTest-Info.plist"; sourceTree = "<group>"; };
+		11982135148C788600BAB02F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11982137148C788600BAB02F /* DatepickerTest-Prefix.pch */ = {isa = PBXFileReference; path = "DatepickerTest-Prefix.pch"; sourceTree = "<group>"; };
+		11982138148C788600BAB02F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1198213A148C788600BAB02F /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		1198213C148C788600BAB02F /* DatepickerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatepickerTest-Prefix.pch"; sourceTree = "<group>"; };
+		1198213E148C788600BAB02F /* DatepickerTest-Info.plist */ = {isa = PBXFileReference; path = "DatepickerTest-Info.plist"; sourceTree = "<group>"; };
+		11982142148C788700BAB02F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11982146148C788700BAB02F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11982149148C788700BAB02F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		1198214B148C788700BAB02F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		1198214D148C788700BAB02F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		11982150148C788700BAB02F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		11982152148C788700BAB02F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		11982154148C788700BAB02F /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		11982156148C788700BAB02F /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		11982159148C788700BAB02F /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		1198215A148C788700BAB02F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		1198215D148C788700BAB02F /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1198210D148C788600BAB02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11982118148C788600BAB02F /* Foundation.framework in Frameworks */,
+				1198211A148C788600BAB02F /* UIKit.framework in Frameworks */,
+				1198211C148C788600BAB02F /* CoreGraphics.framework in Frameworks */,
+				1198211E148C788600BAB02F /* AddressBook.framework in Frameworks */,
+				11982120148C788600BAB02F /* AddressBookUI.framework in Frameworks */,
+				11982122148C788600BAB02F /* AudioToolbox.framework in Frameworks */,
+				11982124148C788600BAB02F /* AVFoundation.framework in Frameworks */,
+				11982126148C788600BAB02F /* CoreLocation.framework in Frameworks */,
+				11982128148C788600BAB02F /* MediaPlayer.framework in Frameworks */,
+				1198212A148C788600BAB02F /* QuartzCore.framework in Frameworks */,
+				1198212C148C788600BAB02F /* SystemConfiguration.framework in Frameworks */,
+				1198212E148C788600BAB02F /* MobileCoreServices.framework in Frameworks */,
+				11982130148C788600BAB02F /* CoreMedia.framework in Frameworks */,
+				1198213B148C788600BAB02F /* PhoneGap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11982110148C788600BAB02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11982105148C788600BAB02F = {
+			isa = PBXGroup;
+			children = (
+				11982131148C788600BAB02F /* DatepickerTest */,
+				11982116148C788600BAB02F /* Frameworks */,
+				11982114148C788600BAB02F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11982114148C788600BAB02F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11982113148C788600BAB02F /* DatepickerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11982116148C788600BAB02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11982117148C788600BAB02F /* Foundation.framework */,
+				11982119148C788600BAB02F /* UIKit.framework */,
+				1198211B148C788600BAB02F /* CoreGraphics.framework */,
+				1198211D148C788600BAB02F /* AddressBook.framework */,
+				1198211F148C788600BAB02F /* AddressBookUI.framework */,
+				11982121148C788600BAB02F /* AudioToolbox.framework */,
+				11982123148C788600BAB02F /* AVFoundation.framework */,
+				11982125148C788600BAB02F /* CoreLocation.framework */,
+				11982127148C788600BAB02F /* MediaPlayer.framework */,
+				11982129148C788600BAB02F /* QuartzCore.framework */,
+				1198212B148C788600BAB02F /* SystemConfiguration.framework */,
+				1198212D148C788600BAB02F /* MobileCoreServices.framework */,
+				1198212F148C788600BAB02F /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11982131148C788600BAB02F /* DatepickerTest */ = {
+			isa = PBXGroup;
+			children = (
+				1198213A148C788600BAB02F /* PhoneGap.framework */,
+				1198213C148C788600BAB02F /* DatepickerTest-Prefix.pch */,
+				1198213F148C788700BAB02F /* Resources */,
+				11982158148C788700BAB02F /* Classes */,
+				1198215C148C788700BAB02F /* Plugins */,
+				11982132148C788600BAB02F /* Supporting Files */,
+			);
+			path = DatepickerTest;
+			sourceTree = "<group>";
+		};
+		11982132148C788600BAB02F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11982133148C788600BAB02F /* DatepickerTest-Info.plist */,
+				11982134148C788600BAB02F /* InfoPlist.strings */,
+				11982137148C788600BAB02F /* DatepickerTest-Prefix.pch */,
+				11982138148C788600BAB02F /* main.m */,
+				1198213E148C788600BAB02F /* DatepickerTest-Info.plist */,
+				11982156148C788700BAB02F /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1198213F148C788700BAB02F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11982154148C788700BAB02F /* Capture.bundle */,
+				11982140148C788700BAB02F /* en.lproj */,
+				11982144148C788700BAB02F /* es.lproj */,
+				11982148148C788700BAB02F /* icons */,
+				1198214F148C788700BAB02F /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11982140148C788700BAB02F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				11982141148C788700BAB02F /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		11982144148C788700BAB02F /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				11982145148C788700BAB02F /* Localizable.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		11982148148C788700BAB02F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				11982149148C788700BAB02F /* icon.png */,
+				1198214B148C788700BAB02F /* icon@2x.png */,
+				1198214D148C788700BAB02F /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		1198214F148C788700BAB02F /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				11982150148C788700BAB02F /* Default.png */,
+				11982152148C788700BAB02F /* Default@2x.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		11982158148C788700BAB02F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11982159148C788700BAB02F /* AppDelegate.h */,
+				1198215A148C788700BAB02F /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1198215C148C788700BAB02F /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				1198215D148C788700BAB02F /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11982112148C788600BAB02F /* DatepickerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11982160148C788700BAB02F /* Build configuration list for PBXNativeTarget "DatepickerTest" */;
+			buildPhases = (
+				1198210C148C788600BAB02F /* Sources */,
+				1198210D148C788600BAB02F /* Frameworks */,
+				1198210E148C788600BAB02F /* Resources */,
+				1198210F148C788600BAB02F /* Sources */,
+				11982110148C788600BAB02F /* Frameworks */,
+				11982111148C788600BAB02F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatepickerTest;
+			productName = DatepickerTest;
+			productReference = 11982113148C788600BAB02F /* DatepickerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11982107148C788600BAB02F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1198210A148C788600BAB02F /* Build configuration list for PBXProject "DatepickerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 11982105148C788600BAB02F;
+			productRefGroup = 11982114148C788600BAB02F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11982112148C788600BAB02F /* DatepickerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1198210E148C788600BAB02F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11982136148C788600BAB02F /* InfoPlist.strings in Resources */,
+				1198213D148C788600BAB02F /* DatepickerTest-Prefix.pch in Resources */,
+				11982143148C788700BAB02F /* Localizable.strings in Resources */,
+				11982147148C788700BAB02F /* Localizable.strings in Resources */,
+				1198214A148C788700BAB02F /* icon.png in Resources */,
+				1198214C148C788700BAB02F /* icon@2x.png in Resources */,
+				1198214E148C788700BAB02F /* icon-72.png in Resources */,
+				11982151148C788700BAB02F /* Default.png in Resources */,
+				11982153148C788700BAB02F /* Default@2x.png in Resources */,
+				11982155148C788700BAB02F /* Capture.bundle in Resources */,
+				11982157148C788700BAB02F /* PhoneGap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11982111148C788600BAB02F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, into the Project Navigator of Xcode 4. Make sure you select the second radio-button: 'Create folder references for any added folders' (which will create a blue folder)\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1198210C148C788600BAB02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11982139148C788600BAB02F /* main.m in Sources */,
+				1198215B148C788700BAB02F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1198210F148C788600BAB02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11982134148C788600BAB02F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11982135148C788600BAB02F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11982141148C788700BAB02F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11982142148C788700BAB02F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11982145148C788700BAB02F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11982146148C788700BAB02F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1198215E148C788700BAB02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1198215F148C788700BAB02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		11982161148C788700BAB02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatepickerTest/DatepickerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "DatepickerTest/DatepickerTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11982162148C788700BAB02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatepickerTest/DatepickerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "DatepickerTest/DatepickerTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1198210A148C788600BAB02F /* Build configuration list for PBXProject "DatepickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1198215E148C788700BAB02F /* Debug */,
+				1198215F148C788700BAB02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11982160148C788700BAB02F /* Build configuration list for PBXNativeTarget "DatepickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11982161148C788700BAB02F /* Debug */,
+				11982162148C788700BAB02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11982107148C788600BAB02F /* Project object */;
+}
