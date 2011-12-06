@@ -1,6 +1,12 @@
 body {
 	background-color:#333333;
-    font-family:"Arial, Helvetica Neue, Times New Roman";
-    font-size:12px; 
+   
+}
+
+.headerText {
+    font-family:"Helvetica";
+    font-size:22px; 
     color:#ccc; 
+    font-weight:normal;
+    line-height: 24px;
 }

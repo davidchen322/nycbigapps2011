@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
 	<meta charset="utf-8">
     <link rel="stylesheet"  href="css/style.css" type="text/css" />
+        
+        
+   <script type="text/javascript"  src="js/mobiscroll-1.5.2.js" ></script>
+   <link href="css/mobiscroll-1.5.2.css" rel="stylesheet" type="text/css" />
 
 	<!-- iPad/iPhone specific css below, add after your main css >
 	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
@@ -14,7 +18,12 @@
 	<!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
 	<script type="text/javascript" charset="utf-8" src="phonegap-1.2.0.js"></script>
     <script type="text/javascript">
-
+        $(document).ready(function () {
+                          // Date with external button
+                          $('#date1').scroller( );
+                          $('#date1').scroller('enable');
+                          
+        });
 
 	// If you want to prevent dragging, uncomment this section
 	/*
@@ -54,8 +63,30 @@
   </head>
   <body onload="onBodyLoad()">
       
-      testing
+     <span class="headerText">
+         I want to find a <br>
+         <select>
+             <option value="1">Farmer's Market</option>
+             <option value="2">Street Fair</option>
+             <option value="2">Block Party</option>
+         </select>
+ <br>
+         in the  <br>     
+       
+         <select>
+             <option value="1">Bronx</option>
+             <option value="2">Brooklyn</option>
+             <option value="2">Manhattan</option>
+         </select> <br>
+     on  <br>
+         <div data-role="fieldcontain">
+             <input type="text" name="date1" id="date1" class="mobiscroll" value="01.01.2011" />
+         </div>
+
+         
+     </span>
       
+      <!-- 
 	<h1>Hey, it's PhoneGap!</h1>
 	<p>Don't know how to get started? Check out <em><a target="_blank" href="http://www.phonegap.com/start#ios-x4">PhoneGap Start</a></em>
 	<br />
@@ -63,5 +94,6 @@
 		<li>Check your console log for any white-list rejection errors.</li>
 		<li>Add your allowed <strong>hosts</strong> in PhoneGap.plist/ExternalHosts (wildcards OK, don't enter the URL scheme)</li>
 	</ol>
+       --> 
   </body>
 </html>
